@@ -57,11 +57,8 @@ covered_count = init_covered_count(orig_covered)
 objective_covered = init_objective_covered(orig_covered)
 # ==============================================================================================
 # start gen inputs
-# Number of counter images
+# Number of adversarial samples
 adv_number = 0
-adv_number_1 = 0
-adv_number_2 = 0
-adv_number_3 = 0
 # Clean up the memory every certain amount
 i_number_clear = 0
 adv_number_list = [[0] * 1000] * 1000

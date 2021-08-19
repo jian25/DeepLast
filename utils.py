@@ -28,7 +28,7 @@ def deprocess_image(x):
     x = np.clip(x, 0, 255).astype('uint8')
     return x
 
-
+# Obtain label information
 def decode_label(pred):
     return decode_predictions(pred)[0][0][1]
 
